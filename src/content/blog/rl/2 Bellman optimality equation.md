@@ -35,7 +35,9 @@ $$
 
 > 如果一个状态总是很晚才出现，它的占用度量就小，这说明在折扣回报的视角下，这个状态的重要性低，策略优化会更关注前期就能到达、能获得奖励的状态。
 
-### 1.2 状态-动作占用度量（State-Action Occupancy Measure）
+### 1.2 状态-动作占用度量
+
+对于折扣因子 $\gamma \in [0,1)$，**状态-动作占用度量（State-Action Occupancy Measure）** 定义为：
 
 $$
 \begin{aligned}
