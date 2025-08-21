@@ -24,7 +24,7 @@ AE 主要可以分为两个部分：
 
 如下示例，将 MNIST 手写数字数据集图像展平（28 × 28 = 784 维），然后通过两个 Linear 层组成的 Encoder 压缩到 64 维，然后通过两个 Linear 层组成的 Decoder 还原图像。
 
-```Python
+```python
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -209,7 +209,7 @@ $$
 
 如下示例，基于 MNIST 手写数字数据集图像训练简单的 VAE 生成模型。
 
-```Python
+```python
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
